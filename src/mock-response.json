@@ -1,0 +1,1289 @@
+{
+  "created": "2023-02-17T09:18:33.950Z",
+  "count": 455,
+  "offset": 0,
+  "releases": [
+    {
+      "id": "1f2182e8-c8e8-44bb-b7f6-88ab54fae91b",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "count": 1,
+      "title": "We Ride",
+      "status": "Official",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "e5f421fc-b9eb-343e-9712-26b24955a2bc",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "We Ride",
+        "primary-type": "Single"
+      },
+      "date": "2006-10-23",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "2006-10-23",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "iso-3166-1-codes": ["GB"]
+          }
+        }
+      ],
+      "barcode": "602517090842",
+      "asin": "B000IY03XC",
+      "label-info": [
+        {
+          "catalog-number": "1709084",
+          "label": {
+            "id": "995428e7-81b6-41dd-bd38-5a7a0ece8ad6",
+            "name": "Mercury Records"
+          }
+        }
+      ],
+      "track-count": 2,
+      "media": [{ "format": "CD", "disc-count": 0, "track-count": 2 }]
+    },
+    {
+      "id": "f9f63ef9-3d72-3dfa-afd3-0c533f15e6f7",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "count": 1,
+      "title": "Shut Up and Drive",
+      "status": "Official",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "d4aad4b9-9262-3eec-9831-850140989f3b",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Shut Up and Drive",
+        "primary-type": "Single"
+      },
+      "date": "2007-08-27",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "2007-08-27",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "iso-3166-1-codes": ["GB"]
+          }
+        }
+      ],
+      "barcode": "602517461185",
+      "asin": "B000UNBQQY",
+      "label-info": [
+        {
+          "catalog-number": "1746118",
+          "label": {
+            "id": "995428e7-81b6-41dd-bd38-5a7a0ece8ad6",
+            "name": "Mercury Records"
+          }
+        }
+      ],
+      "track-count": 2,
+      "media": [{ "format": "CD", "disc-count": 1, "track-count": 2 }]
+    },
+    {
+      "id": "2e5da6e9-d126-46f0-acb0-6da3e5f2fa66",
+      "score": 100,
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "count": 1,
+      "title": "Take a Bow (Remixes)",
+      "status": "Promotion",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "5bdaa74b-c83f-3e25-9a37-3ad28fad9bc2",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Take a Bow",
+        "primary-type": "Single"
+      },
+      "date": "2008",
+      "country": "SE",
+      "release-events": [
+        {
+          "date": "2008",
+          "area": {
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "name": "Sweden",
+            "sort-name": "Sweden",
+            "iso-3166-1-codes": ["SE"]
+          }
+        }
+      ],
+      "label-info": [
+        {
+          "label": {
+            "id": "f669a7a4-b94b-42db-a0b7-ba040e5c30d8",
+            "name": "Universal Music AB"
+          }
+        }
+      ],
+      "track-count": 10,
+      "media": [{ "format": "CD-R", "disc-count": 0, "track-count": 10 }]
+    },
+    {
+      "id": "cf660a7a-4117-4285-8eb4-752dc5089c82",
+      "score": 100,
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Rude Boy (Dance Remixes)",
+      "status": "Promotion",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "fc666bbe-ace7-4fb6-b623-8a4328c0ba71",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Rude Boy",
+        "primary-type": "Single"
+      },
+      "date": "2010",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2010",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "track-count": 10,
+      "media": [{ "format": "CD", "disc-count": 0, "track-count": 10 }]
+    },
+    {
+      "id": "ba53400a-6af9-426e-9129-6a0821fc1426",
+      "score": 100,
+      "count": 1,
+      "title": "Umbrella",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "735f045f-55b7-3e3d-ae56-c27dea6a81c8",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Umbrella",
+        "primary-type": "Single"
+      },
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "8e6b101e-68c1-49c5-89c4-c2de2f0bd7ee",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "count": 1,
+      "title": "Greatest Hits",
+      "status": "Bootleg",
+      "packaging": "Digipak",
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "ea4d909f-53f5-402f-b922-70fc7a6ce4b9",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "Greatest Hits",
+        "primary-type": "Album",
+        "secondary-types": ["Compilation"],
+        "secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]
+      },
+      "date": "2008",
+      "country": "RU",
+      "release-events": [
+        {
+          "date": "2008",
+          "area": {
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "name": "Russia",
+            "sort-name": "Russia",
+            "iso-3166-1-codes": ["RU"]
+          }
+        }
+      ],
+      "barcode": "4607147861899",
+      "label-info": [
+        {
+          "catalog-number": "15589",
+          "label": {
+            "id": "46adc01f-fb5d-4ec2-874b-d6c8c9ba4010",
+            "name": "Star Mark"
+          }
+        }
+      ],
+      "track-count": 20,
+      "media": [{ "format": "CD", "disc-count": 0, "track-count": 20 }]
+    },
+    {
+      "id": "7e3c8eb7-8bc6-4b78-8b66-a685242f4807",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "count": 1,
+      "title": "Work (Robots With Rayguns Remix)",
+      "status": "Bootleg",
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "d8e37b85-40b1-4f88-ab28-6b9612d491dd",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Work (Robots With Rayguns Remix)",
+        "primary-type": "Single",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "3904d771-52cf-4a98-b91b-7db890613edd",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "ANTI",
+      "status": "Official",
+      "disambiguation": "deluxe, clean, hi-res",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "0c482acd-35a2-466b-b833-ef5f2f1297d4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "ANTI",
+        "primary-type": "Album"
+      },
+      "date": "2016-01-28",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2016-01-28",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": ["XW"]
+          }
+        }
+      ],
+      "barcode": "00851365006691",
+      "label-info": [
+        {
+          "label": {
+            "id": "f25314ce-f24a-4d80-9b26-e0181f6bd831",
+            "name": "Rihanna"
+          }
+        },
+        {
+          "label": {
+            "id": "7204e52a-64c8-4a48-9bca-079359ee9d3f",
+            "name": "Roc Nation"
+          }
+        }
+      ],
+      "track-count": 16,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 16 }
+      ]
+    },
+    {
+      "id": "2a05baf2-fe8d-3e62-84d8-ff0a6b73a9fc",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "count": 1,
+      "title": "S&M (remixes)",
+      "status": "Official",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "a9db13b6-cac9-4c05-b47f-be965c064064",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "S&M",
+        "primary-type": "Single"
+      },
+      "date": "2011-02-28",
+      "country": "DE",
+      "release-events": [
+        {
+          "date": "2011-02-28",
+          "area": {
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "sort-name": "Germany",
+            "iso-3166-1-codes": ["DE"]
+          }
+        }
+      ],
+      "asin": "B004PR3ZNS",
+      "track-count": 9,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 9 }
+      ]
+    },
+    {
+      "id": "39a4d4ba-bc9e-4a55-8ad4-f9ed194c208a",
+      "score": 100,
+      "count": 1,
+      "title": "Reb’L Fleur (The Ri-Mixes)",
+      "text-representation": { "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "5296b9b9-c3da-4f2a-bc60-34f9b2a17419",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "title": "Reb’L Fleur (The Ri-Mixes)",
+        "primary-type": "EP",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "track-count": 7,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 7 }
+      ]
+    },
+    {
+      "id": "6017d9ff-71bd-42c3-acde-373032dd2472",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Devil in a Blue Dress",
+      "status": "Bootleg",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "183ff781-a601-4433-bb4b-5f30f67dfd7b",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "Devil in a Blue Dress",
+        "primary-type": "Album",
+        "secondary-types": ["Compilation"],
+        "secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]
+      },
+      "date": "2012",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2012",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "barcode": "",
+      "label-info": [
+        {
+          "catalog-number": "[none]",
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "track-count": 17,
+      "media": [{ "format": "CD-R", "disc-count": 0, "track-count": 17 }]
+    },
+    {
+      "id": "00df3f01-48e5-46ab-84ff-335965636351",
+      "score": 100,
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "count": 1,
+      "title": "We Ride (Club Mixes)",
+      "status": "Promotion",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "e5f421fc-b9eb-343e-9712-26b24955a2bc",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "We Ride",
+        "primary-type": "Single"
+      },
+      "date": "2006-11-01",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2006-11-01",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "barcode": "",
+      "label-info": [
+        {
+          "catalog-number": "DEFR 166622",
+          "label": {
+            "id": "5664c7ca-002a-458b-943e-abbcd7993f22",
+            "name": "SRP Records"
+          }
+        }
+      ],
+      "track-count": 7,
+      "media": [{ "format": "CD", "disc-count": 0, "track-count": 7 }]
+    },
+    {
+      "id": "3d5c52e5-5d76-4320-af82-f45a6fd9b5d2",
+      "score": 100,
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Rude Boy (Remixes)",
+      "status": "Promotion",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "fc666bbe-ace7-4fb6-b623-8a4328c0ba71",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Rude Boy",
+        "primary-type": "Single"
+      },
+      "date": "2010",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2010",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "track-count": 7,
+      "media": [{ "format": "CD", "disc-count": 0, "track-count": 7 }]
+    },
+    {
+      "id": "66487fe7-2a2d-4ff8-bf91-ee4afa0a463a",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "count": 1,
+      "title": "American Oxygen",
+      "status": "Official",
+      "disambiguation": "music video",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "1319ef80-c4de-42dc-9973-8e5ea781f327",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "American Oxygen",
+        "primary-type": "Single"
+      },
+      "date": "2015-04-16",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2015-04-16",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": ["XW"]
+          }
+        }
+      ],
+      "label-info": [
+        {
+          "label": {
+            "id": "2c46a3ea-daf6-4b8b-8a70-a0a8ee35c9a2",
+            "name": "Westbury Road Entertainment"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "78d1e7c7-29a3-4af1-ab45-85ea762fc905",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "count": 1,
+      "title": "Rude Boy (Chrispy Dubstep Remix)",
+      "status": "Bootleg",
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "ce765a81-9d44-472c-8fcc-f85b1bb6e98b",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Rude Boy (Chrispy Dubstep Remix)",
+        "primary-type": "Single",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "date": "2010",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "2010",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "iso-3166-1-codes": ["GB"]
+          }
+        }
+      ],
+      "label-info": [
+        {
+          "catalog-number": "[none]",
+          "label": {
+            "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+            "name": "[no label]"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "86fbc0c6-39b3-49b6-948e-66e4033229c8",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Work",
+      "status": "Official",
+      "disambiguation": "music video",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "4d74169d-be7d-47ec-be63-d501096e0b7e",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Work",
+        "primary-type": "Single"
+      },
+      "date": "2016-02-22",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2016-02-22",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": ["XW"]
+          }
+        }
+      ],
+      "label-info": [
+        {
+          "label": {
+            "id": "2c46a3ea-daf6-4b8b-8a70-a0a8ee35c9a2",
+            "name": "Westbury Road Entertainment"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "2dac8044-edca-4688-8314-89a85a5e96cb",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Sledgehammer (from the Motion Picture \"Star Trek Beyond\")",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "25f09b05-0d98-4c67-b865-21aff3be7915",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Sledgehammer (from the Motion Picture \"Star Trek Beyond\")",
+        "primary-type": "Single",
+        "secondary-types": ["Soundtrack"],
+        "secondary-type-ids": ["22a628ad-c082-3c4f-b1b6-d41665107b88"]
+      },
+      "date": "2016-06-27",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2016-06-27",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "asin": "B01HF1Z790",
+      "label-info": [
+        {
+          "label": {
+            "id": "2c46a3ea-daf6-4b8b-8a70-a0a8ee35c9a2",
+            "name": "Westbury Road Entertainment"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "178767dd-3a51-4ce8-a3f4-6a978780d8ac",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Pose: Dance Remixes",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "8d67e6df-73fd-4332-85c6-679df1791e95",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Pose: Dance Remixes",
+        "primary-type": "Single",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "date": "2017-04-14",
+      "country": "AU",
+      "release-events": [
+        {
+          "date": "2017-04-14",
+          "area": {
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "name": "Australia",
+            "sort-name": "Australia",
+            "iso-3166-1-codes": ["AU"]
+          }
+        },
+        {
+          "date": "2017-05-04",
+          "area": {
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "sort-name": "Germany",
+            "iso-3166-1-codes": ["DE"]
+          }
+        },
+        {
+          "date": "2017-05-04",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "iso-3166-1-codes": ["GB"]
+          }
+        },
+        {
+          "date": "2017-04-20",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "asin": "B072BK4T4D",
+      "label-info": [
+        {
+          "label": {
+            "id": "7204e52a-64c8-4a48-9bca-079359ee9d3f",
+            "name": "Roc Nation"
+          }
+        },
+        {
+          "label": {
+            "id": "2c46a3ea-daf6-4b8b-8a70-a0a8ee35c9a2",
+            "name": "Westbury Road Entertainment"
+          }
+        }
+      ],
+      "track-count": 4,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 4 }
+      ]
+    },
+    {
+      "id": "e7c9f552-ceb9-4f11-8705-375fb461c659",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "count": 2,
+      "title": "Greatest Hits",
+      "status": "Bootleg",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "4f0179bf-c112-478c-b66f-be30f7f87c73",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "Greatest Hits",
+        "primary-type": "Album",
+        "secondary-types": ["Compilation"],
+        "secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"]
+      },
+      "date": "2017",
+      "country": "RU",
+      "release-events": [
+        {
+          "date": "2017",
+          "area": {
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "name": "Russia",
+            "sort-name": "Russia",
+            "iso-3166-1-codes": ["RU"]
+          }
+        }
+      ],
+      "barcode": "4607147921067",
+      "label-info": [
+        {
+          "label": {
+            "id": "46adc01f-fb5d-4ec2-874b-d6c8c9ba4010",
+            "name": "Star Mark"
+          }
+        }
+      ],
+      "track-count": 41,
+      "media": [
+        { "format": "CD", "disc-count": 0, "track-count": 20 },
+        { "format": "CD", "disc-count": 0, "track-count": 21 }
+      ]
+    },
+    {
+      "id": "02e4703c-39b7-4d3f-bd4a-977f547f6c0d",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "count": 1,
+      "title": "A Girl Like Me",
+      "status": "Bootleg",
+      "packaging": "Jewel Case",
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "51797d3d-7071-30ee-9fb3-d60aad857ef0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "A Girl Like Me",
+        "primary-type": "Album"
+      },
+      "date": "2006",
+      "country": "RU",
+      "release-events": [
+        {
+          "date": "2006",
+          "area": {
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "name": "Russia",
+            "sort-name": "Russia",
+            "iso-3166-1-codes": ["RU"]
+          }
+        }
+      ],
+      "barcode": "4635053015594",
+      "label-info": [
+        {
+          "label": {
+            "id": "ee980317-abdc-42b4-9c01-a43af06d8108",
+            "name": "MG Records"
+          }
+        },
+        {
+          "label": {
+            "id": "461a73aa-8f81-4abf-942f-1566d9d1962d",
+            "name": "East Records"
+          }
+        }
+      ],
+      "track-count": 16,
+      "media": [{ "format": "CD", "disc-count": 1, "track-count": 16 }]
+    },
+    {
+      "id": "40a0f4ac-cecf-479e-8e09-e6b36a938df9",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "American Oxygen",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "1319ef80-c4de-42dc-9973-8e5ea781f327",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "American Oxygen",
+        "primary-type": "Single"
+      },
+      "date": "2015-04-14",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2015-04-14",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": ["XW"]
+          }
+        }
+      ],
+      "barcode": "851365006288",
+      "label-info": [
+        {
+          "label": {
+            "id": "f25314ce-f24a-4d80-9b26-e0181f6bd831",
+            "name": "Rihanna"
+          }
+        },
+        {
+          "label": {
+            "id": "7204e52a-64c8-4a48-9bca-079359ee9d3f",
+            "name": "Roc Nation"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "d9bed87d-3308-48c1-b12e-da9ed7fbd405",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Love on the Brain (Dance Remixes)",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "b829b2e0-dcd0-47f8-9b54-f22fd079c49b",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Love on the Brain (Dance Remixes)",
+        "primary-type": "Single",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "date": "2016-10-17",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2016-10-17",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "label-info": [
+        {
+          "label": {
+            "id": "7204e52a-64c8-4a48-9bca-079359ee9d3f",
+            "name": "Roc Nation"
+          }
+        }
+      ],
+      "track-count": 4,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 4 }
+      ]
+    },
+    {
+      "id": "f50d1706-4d9f-4118-8146-5a14a46c93a6",
+      "score": 100,
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Diamonds (ruined by Iccarus)",
+      "status": "Bootleg",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "d6081a67-ce22-4c2a-bc53-39459aa70f48",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Diamonds (ruined by Iccarus)",
+        "primary-type": "Single",
+        "secondary-types": ["Remix"],
+        "secondary-type-ids": ["0c60f497-ff81-3818-befd-abfc84a4858b"]
+      },
+      "date": "2016-07-19",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2016-07-19",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": ["XW"]
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "ffda48fe-c846-4a63-8dd4-db5e1c138610",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "Needed Me",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "16829e46-e0ba-4b58-8b7d-efe23724083d",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "Needed Me",
+        "primary-type": "Single"
+      },
+      "date": "2016-03-30",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2016-03-30",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    },
+    {
+      "id": "745de78b-6a6c-4eff-8ef1-400b7971d7b4",
+      "score": 100,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "count": 1,
+      "title": "What’s My Name?",
+      "status": "Official",
+      "packaging": "None",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "artist-credit": [
+        {
+          "name": "Rihanna",
+          "artist": {
+            "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+            "name": "Rihanna",
+            "sort-name": "Rihanna",
+            "disambiguation": "Barbadian R&B/pop singer"
+          }
+        }
+      ],
+      "release-group": {
+        "id": "b0c7edba-40d5-48b7-87cf-5c477c2b61be",
+        "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "title": "What’s My Name?",
+        "primary-type": "Single"
+      },
+      "barcode": "00602527592503",
+      "label-info": [
+        {
+          "label": {
+            "id": "4155482e-68dd-455e-8088-1bea9c772431",
+            "name": "Island Def Jam"
+          }
+        }
+      ],
+      "track-count": 1,
+      "media": [
+        { "format": "Digital Media", "disc-count": 0, "track-count": 1 }
+      ]
+    }
+  ]
+}

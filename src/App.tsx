@@ -6,12 +6,12 @@ function AlbumPicker() {
   const [albums, setAlbums] = useState<string[]>([]);
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    const target = e.target as typeof e.target & {
+    const form = e.target as HTMLFormElement;
+    const formElements = form.elements as typeof form.elements & {
       artist: { value: string };
     };
-    const artist = encodeURIComponent(target.artist.value);
+    const artist = encodeURIComponent(formElements.artist.value);
     const url = `https://musicbrainz.org/ws/2/release?fmt=json&query=artist:${artist}`;
-    console.log({ url, artist });
     const response = await fetch(url);
     const mbResult = (await response.json()) as {
       releases: { title: string }[];
@@ -20,7 +20,7 @@ function AlbumPicker() {
     setAlbums(releases.map(({ title }) => title));
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} name="search" aria-label="search">
       <label>
         Artist name:
         <input name="artist" />
