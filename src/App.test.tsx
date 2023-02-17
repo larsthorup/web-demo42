@@ -1,19 +1,29 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it, vi } from "vitest";
-import App from "./App";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import App, { AlbumPicker } from "./App";
 import mockResponse from "./mock-response.json";
 
 describe(App.name, () => {
+  it("should render", () => {
+    render(<App />);
+    expect(screen.getByLabelText("Artist name:")).toBeInTheDocument();
+  });
+});
+
+describe(AlbumPicker.name, () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   it("should show search results", async () => {
     const user = userEvent.setup();
+    const rihannaUrl =
+      "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna";
     const mockFetch = vi
       .spyOn(window, "fetch")
       .mockImplementation(async (url: RequestInfo | URL) => {
-        if (
-          url ===
-          "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna"
-        ) {
+        if (url === rihannaUrl) {
           return {
             json: async () => mockResponse,
           } as Response;
@@ -22,7 +32,7 @@ describe(App.name, () => {
         }
       });
 
-    render(<App />);
+    render(<AlbumPicker />);
 
     const artistInput = screen.getByLabelText("Artist name:");
     await user.type(artistInput, "rihanna");
@@ -31,8 +41,6 @@ describe(App.name, () => {
 
     await screen.findByText("A Girl Like Me");
 
-    expect(mockFetch).toHaveBeenCalledWith(
-      "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna"
-    );
+    expect(mockFetch).toHaveBeenCalledWith(rihannaUrl);
   });
 });

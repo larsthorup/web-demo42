@@ -2,7 +2,7 @@ import { FormEvent, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
-function AlbumPicker() {
+export function AlbumPicker() {
   const [albums, setAlbums] = useState<string[]>([]);
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
