@@ -41,7 +41,7 @@ describe(AlbumPicker.name, () => {
     const form = screen.getByRole("form", { name: "search" });
     fireEvent.submit(form);
 
-    await screen.findByText("A Girl Like Me");
+    await screen.findByText("A Girl Like Me (2006)");
     debug();
     expect(mockFetch).toHaveBeenCalledWith(rihannaUrl);
   });
