@@ -8,7 +8,7 @@ import mockResponse from "./mock-response.json";
 describe(App.name, () => {
   it("should render", () => {
     render(<App />);
-    expect(screen.getByLabelText("Artist name:")).toBeInTheDocument();
+    expect(screen.getByText("Album")).toBeInTheDocument();
   });
 });
 
@@ -34,6 +34,9 @@ describe(AlbumPicker.name, () => {
       });
 
     render(<App />);
+
+    // Navigate to album search
+    await user.click(screen.getByText("Album"));
 
     const artistInput = screen.getByLabelText("Artist name:");
     await user.type(artistInput, "rihanna");

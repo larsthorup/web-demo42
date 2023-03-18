@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
@@ -66,6 +66,22 @@ export function AlbumPicker() {
 function App() {
   const [count, setCount] = useState(0);
 
+  const [page, setPage] = useState("count");
+  useEffect(() => {
+    function onPopState() {
+      const page = new URLSearchParams(window.location.search).get("page");
+      setPage(page || "count");
+    }
+    addEventListener("popstate", onPopState);
+    onPopState();
+    return () => removeEventListener("popstate", onPopState);
+  }, []);
+  function onNavigate(e: React.MouseEvent<HTMLAnchorElement>) {
+    e.preventDefault();
+    history.pushState({}, "", e.currentTarget.href);
+    dispatchEvent(new PopStateEvent("popstate"));
+  }
+
   return (
     <div className="App">
       <div>
@@ -78,7 +94,20 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <AlbumPicker />
+        <a href="?page=count" onClick={onNavigate}>
+          Count
+        </a>{" "}
+        |{" "}
+        <a href="?page=album" onClick={onNavigate}>
+          Album
+        </a>
+        <br />
+        {page === "count" && (
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+        )}
+        {page === "album" && <AlbumPicker />}
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
