@@ -36,6 +36,19 @@
   padding: 2em;
 }
 
+.card {
+  transition: opacity 0.8s ease-in;
+}
+
+.card.navigating {
+  opacity: 0;
+}
+
+.card.navigated {
+  opacity: 1;
+}
+
+
 .read-the-docs {
   color: #888;
 }

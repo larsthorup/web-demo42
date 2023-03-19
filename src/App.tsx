@@ -67,15 +67,22 @@ function App() {
   const [count, setCount] = useState(0);
 
   const [page, setPage] = useState("count");
+  const [isNavigating, setIsNavigating] = useState(true);
   useEffect(() => {
     function onPopState() {
       const page = new URLSearchParams(window.location.search).get("page");
+      setIsNavigating(true);
       setPage(page || "count");
     }
     addEventListener("popstate", onPopState);
     onPopState();
     return () => removeEventListener("popstate", onPopState);
   }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsNavigating(false);
+    }, 1);
+  }, [isNavigating]);
   function onNavigate(e: React.MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
     history.pushState({}, "", e.currentTarget.href);
@@ -93,22 +100,25 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
-        <a href="?page=count" onClick={onNavigate}>
-          Count
-        </a>{" "}
-        |{" "}
-        <a href="?page=album" onClick={onNavigate}>
-          Album
-        </a>
-        <br />
-        {page === "count" && (
+      <a href="?page=count" onClick={onNavigate}>
+        Count
+      </a>{" "}
+      |{" "}
+      <a href="?page=album" onClick={onNavigate}>
+        Album
+      </a>
+      {page === "count" && (
+        <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
           <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
           </button>
-        )}
-        {page === "album" && <AlbumPicker />}
-      </div>
+        </div>
+      )}
+      {page === "album" && (
+        <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
+          <AlbumPicker />
+        </div>
+      )}
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
