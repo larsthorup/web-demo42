@@ -2,6 +2,21 @@ import { FormEvent, useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
+async function logResults(url: string, message: string) {
+  // Note: view log at https://requestbin.com/r/enafxgfzxrpok
+  const requestBinUrl = "https://enafxgfzxrpok.x.pipedream.net";
+  const response = await fetch(requestBinUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ url, message }),
+  });
+  if (!response.ok) {
+    console.error(`Failed to log results: ${response.status}`);
+  }
+}
+
 export function AlbumPicker() {
   const [albums, setAlbums] = useState<string[]>([]);
   async function handleSubmit(e: FormEvent) {
@@ -29,6 +44,7 @@ export function AlbumPicker() {
       releases: { title: string; date: string }[];
     };
     const { releases } = mbResult;
+    logResults(url, `Found ${releases.length} albums`);
     setAlbums(releases.map(({ title, date }) => `${title} (${date})`));
   }
   function onInput(e: FormEvent) {

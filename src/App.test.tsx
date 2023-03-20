@@ -21,12 +21,17 @@ describe(AlbumPicker.name, () => {
     const user = userEvent.setup();
     const rihannaUrl =
       "https://musicbrainz.org/ws/2/release?fmt=json&query=artist:rihanna";
+    const logUrl = "https://enafxgfzxrpok.x.pipedream.net";
     const mockFetch = vi
       .spyOn(window, "fetch")
       .mockImplementation(async (url: RequestInfo | URL) => {
         if (url === rihannaUrl) {
           return {
             json: async () => mockResponse,
+          } as Response;
+        } else if (url === logUrl) {
+          return {
+            ok: true,
           } as Response;
         } else {
           return {} as Response;
