@@ -1,8 +1,9 @@
-import { debug } from "vitest-preview";
 import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import App, { AlbumPicker } from "./App";
+import { debug } from "vitest-preview";
+import AlbumPicker from "./AlbumPicker";
+import App from "./App";
 import mockResponse from "./mock-response.json";
 
 describe(App.name, () => {
