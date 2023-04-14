@@ -10,6 +10,8 @@
     "test": "tsc && vitest --run --coverage && vite build"
   },
   "dependencies": {
+    "@descope/node-sdk": "^1.1.1",
+    "@descope/web-js-sdk": "^1.0.16",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",

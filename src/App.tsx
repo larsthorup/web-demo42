@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import AlbumPicker from "./AlbumPicker";
 import { AlbumProvider } from "./AlbumProvider";
 import "./App.css";
+import { Login, initializeDescope } from "./Login";
 import reactLogo from "./assets/react.svg";
+
+const descopeSdk = initializeDescope();
 
 function App() {
   const [count, setCount] = useState(0);
@@ -48,6 +51,10 @@ function App() {
         |{" "}
         <a href="?page=album" onClick={onNavigate}>
           Album
+        </a>{" "}
+        |{" "}
+        <a href="?page=login" onClick={onNavigate}>
+          Login
         </a>
         {page === "count" && (
           <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
@@ -59,6 +66,11 @@ function App() {
         {page === "album" && (
           <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
             <AlbumPicker />
+          </div>
+        )}
+        {page === "login" && descopeSdk && (
+          <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
+            <Login descopeSdk={descopeSdk} />
           </div>
         )}
         <p className="read-the-docs">
