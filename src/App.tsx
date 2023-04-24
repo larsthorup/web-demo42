@@ -5,7 +5,7 @@ import "./App.css";
 import { Login, initializeDescope } from "./Login";
 import reactLogo from "./assets/react.svg";
 
-const descopeSdk = initializeDescope();
+const descope = initializeDescope();
 
 function App() {
   const [count, setCount] = useState(0);
@@ -68,9 +68,9 @@ function App() {
             <AlbumPicker />
           </div>
         )}
-        {page === "login" && descopeSdk && (
+        {page === "login" && descope && (
           <div className={`card ${isNavigating ? "navigating" : "navigated"}`}>
-            <Login descopeSdk={descopeSdk} />
+            <Login descope={descope} />
           </div>
         )}
         <p className="read-the-docs">

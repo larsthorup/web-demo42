@@ -6,20 +6,20 @@ import { promisify } from "node:util";
 const sessionToken = process.argv[2];
 const projectId = "P2OPANdSmtackRAJlrRKFxFcoriw";
 try {
-  const descopeClient = DescopeClient({
-    projectId,
-  });
+  const descopeClient = DescopeClient({ projectId });
 
-  // fetch public key
-  const jwks = await (
-    await fetch(`https://api.descope.com/v2/keys/${projectId}`)
-  ).json();
-  const publicKey = await importJWK(jwks.keys[0]);
+  // fetch public key in JWKS format (JSON Web Key Set)
+  const jwksUrl = `https://api.descope.com/v2/keys/${projectId}`;
+  const jwksResponse = await fetch(jwksUrl);
+  const jwks = await jwksResponse.json();
+  const jwk = jwks.keys[0];
+  const publicKey = await importJWK(jwk);
 
-  // verify session token signature
-  await promisify(jwt.verify)(sessionToken, publicKey, {
-    algorithms: ["RS256"],
-  });
+  // verify signature of session token
+  // proving that the token was signed by the private key of our Descope project
+  const verify = promisify(jwt.verify);
+  const algorithms = ["RS256"];
+  await verify(sessionToken, publicKey, { algorithms });
 
   // validate session token
   const authInfo = await descopeClient.validateSession(sessionToken);
